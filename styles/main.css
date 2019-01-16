@@ -11,7 +11,7 @@
 		}
 
 
-		@media only screen and (max-device-width: 768px) {
+		@media (max-device-width: 768px) {
   			html, body{
    			 background-image: url("hs2.png");
    			 
