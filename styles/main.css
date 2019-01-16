@@ -1,11 +1,15 @@
 
 		html, body{
-		  height: auto;
-		  background-image: url("hs.png");
-		  background-repeat: no-repeat;
+		  /*height: auto;*/
+		/*background-repeat: no-repeat;
   		  background-size: cover;
   		  background-position: center ;
-  		  background-attachment: fixed;
+  		  background-attachment: fixed;*/
+  		  background: url(hs.png) no-repeat center center fixed; 
+  		  -webkit-background-size: cover;
+  		  -moz-background-size: cover;
+  		  -o-background-size: cover;
+  		  background-size: cover;
   		  font-size: 1.7rem;
   		  font-family: serif;
 		}
@@ -36,7 +40,7 @@
 
 		.footer{
 			width: auto;
-			position: fixed;
+			position: absolute;
   			bottom: 0;
   			color: white;
   			clear: both;
