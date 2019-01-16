@@ -1,1 +1,48 @@
 
+		html, body{
+		  height: auto;
+		  background-image: url("hs.png");
+		  background-repeat: repeat;
+  		  background-size: cover;
+  		  background-position: center ;
+  		  background-attachment: fixed;
+  		  font-size: 1.7rem;
+		}
+
+
+		@media only screen and (max-width: 25em) {
+  			html, body{
+   			 background-image: url("hs2.png");
+   			 
+ 		 	}
+
+		}
+		/*Link Behavior*/
+		a:link {
+		  text-decoration: none;
+		  color: white;
+		}
+
+		a:visited {
+		  text-decoration: none;
+		  color: white;
+		}
+
+		a:hover {
+		  text-decoration: none;
+		  color: pink;
+		}
+
+		.footer{
+			width: auto;
+			position: fixed;
+  			bottom: 0;
+  			color: white;
+  			clear: both;
+  			right: 0;
+  			padding-right: 10px;
+		}
+
+		p{
+		
+		}
