@@ -37,13 +37,13 @@ a:hover {
 }
 
 .nav-links{
-	font-size: xx-large;
+	font-size: 34pt;
 	letter-spacing: 2px;
 
 }
 
 #logo{
-	width:150px;
+	width:;
 }
 
 
@@ -58,5 +58,5 @@ a:hover {
 }
 
 footer > p{
-	font-size: medium;
+	font-size: 40pt;
 }
