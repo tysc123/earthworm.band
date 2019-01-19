@@ -46,19 +46,8 @@ a:hover {
 	width:150px;
 }
 
-#wormy{
-		width: 150px;
-		margin: 0 auto;
-        -moz-transform: scaleX(-1);
-        -o-transform: scaleX(-1);
-        -webkit-transform: scaleX(-1);
-        transform: scaleX(-1);
-        filter: FlipH;
-        -ms-filter: "FlipH";
-        
-}
 
-/*.footer{
+.footer{
 	position: absolute;
 	color: white;
 	clear: both;
@@ -69,5 +58,5 @@ a:hover {
 }
 
 footer > p{
-	font-size: small;
-}*
+	font-size: medium;
+}
