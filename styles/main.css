@@ -1,7 +1,7 @@
 html{
 	overflow-y: hidden;
 	height: 100vh;
-	background: url("../images/hs.png") no-repeat center center fixed; 
+	background: #111d12 url("../images/hs.png") no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -16,7 +16,7 @@ body{
 
 @media (max-device-width: 768px) {
 	html{
-		background-image: url("../images/hs2.png");
+		background: #111d12 url("../images/hs2.png");
 	 }
 }
 
