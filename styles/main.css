@@ -13,8 +13,19 @@ body{
   	font-family: 'Gaegu', serif;
 
 }
+@media {
+	html {
+	    background: url(image url) no-repeat center center fixed;
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
+	    height: 100%;
+	    overflow: hidden;
+	}
+}
 
-@media (max-device-width: 768px) {
+/* @media (max-device-width: 768px) {
 	html{
 		background: #111d12 url("../images/hs2.png") no-repeat center center fixed;
 		-webkit-background-size: cover;
@@ -23,6 +34,7 @@ body{
 		background-size: cover;
 	 }
 }
+*/
 
 /*Link Behavior*/
 a:link {
