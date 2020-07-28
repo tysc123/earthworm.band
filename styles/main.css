@@ -16,7 +16,7 @@ body{
 
 @media (max-device-width: 1264px) {
 	html{
-		background: #111d12 url("../images/hs2.png");
+		background: #111d12 url("../images/hs2.png") no-repeat center center fixed;
 	 }
 }
 
